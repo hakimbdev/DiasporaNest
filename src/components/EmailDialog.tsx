@@ -64,7 +64,7 @@ const EmailDialog: React.FC<EmailDialogProps> = ({ isOpen, onClose, onSubmit }) 
                 setError('');
               }}
               placeholder="your.email@example.com"
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all text-black"
               autoFocus
             />
             {error && (

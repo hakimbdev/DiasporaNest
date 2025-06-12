@@ -348,10 +348,6 @@ const LandingPage = () => {
                   <Mail className="h-4 w-4 mr-3 text-blue-400" />
                   <span>info@diasporanest.com</span>
                 </div>
-                <div className="flex items-center">
-                  <Phone className="h-4 w-4 mr-3 text-blue-400" />
-                  <span>+234 809 123 4567</span>
-                </div>
               </div>
             </div>
             <div>
