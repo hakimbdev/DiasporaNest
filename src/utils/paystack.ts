@@ -1,7 +1,7 @@
 import { PaystackProps } from '@paystack/inline-js';
 
 export const PAYSTACK_PUBLIC_KEY = 'pk_live_08872d8ac9a8cc854cce88f6a5f7bac7da9b8d06';
-export const ACCESS_FEE_NAIRA = 50000; // ₦50,000 in naira
+export const ACCESS_FEE_NAIRA = 25000; // ₦25,000 in naira
 
 export interface PaymentResponse {
   status: 'success' | 'failed' | 'cancelled';

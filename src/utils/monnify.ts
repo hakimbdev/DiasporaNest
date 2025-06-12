@@ -36,7 +36,7 @@ export interface MonnifyResponse {
 // Monnify Test Environment Configuration
 export const MONNIFY_API_KEY = 'MK_TEST_ML3YGBCSVJ';
 export const MONNIFY_CONTRACT_CODE = '401292963352';  // Test contract code
-export const ACCESS_FEE_NAIRA = 50000; // ₦50,000 in naira (Monnify uses actual amount)
+export const ACCESS_FEE_NAIRA = 25000; // ₦25,000 in naira (Monnify uses actual amount)
 
 export const generatePaymentReference = (): string => {
   const timestamp = Date.now();

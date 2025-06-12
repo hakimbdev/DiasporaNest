@@ -83,8 +83,8 @@ const PaymentButton: React.FC<PaymentButtonProps> = ({
         ) : (
           <>
             <CreditCard className="h-5 w-5 mr-2" />
-            <span className="hidden sm:inline">Get Premium Access - ₦50,000</span>
-            <span className="sm:hidden">Get Access - ₦50,000</span>
+            <span className="hidden sm:inline">Get Access Now</span>
+            <span className="sm:hidden">Get Access - ₦25,000</span>
           </>
         )}
       </button>

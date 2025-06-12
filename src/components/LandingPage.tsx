@@ -44,7 +44,7 @@ const LandingPage = () => {
   const faqs = [
     {
       question: 'Why is there a one-time access fee?',
-      answer: 'The ₦50,000 fee ensures we maintain a curated, high-quality platform with verified listings and professional agents, while keeping out spam and low-quality listings. This investment model allows us to provide premium service quality.'
+      answer: 'The ₦25,000 fee ensures we maintain a curated, high-quality platform with verified listings and professional agents, while keeping out spam and low-quality listings. This investment model allows us to provide premium service quality.'
     },
     {
       question: 'Are all properties verified?',
@@ -129,7 +129,7 @@ const LandingPage = () => {
             
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Invest in Nigeria's
-              <span className="block text-amber-400 mt-2">Premium Real Estate</span>
+              <span className="block text-amber-400 mt-2">Most Trusted Real Estates</span>
             </h1>
             
             <p className="text-lg sm:text-xl lg:text-2xl mb-8 sm:mb-10 text-blue-100 max-w-4xl mx-auto leading-relaxed">
@@ -266,7 +266,7 @@ const LandingPage = () => {
             <div className="text-center">
               <h3 className="text-xl sm:text-2xl font-bold mb-6">Premium Access</h3>
               <div className="mb-8">
-                <span className="text-4xl sm:text-5xl lg:text-6xl font-bold">₦50,000</span>
+                <span className="text-4xl sm:text-5xl lg:text-6xl font-bold">₦25,000</span>
                 <div className="text-blue-200 text-sm mt-2">One-time payment • Lifetime access</div>
               </div>
               
