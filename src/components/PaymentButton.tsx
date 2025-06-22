@@ -29,7 +29,6 @@ const PaymentButton: React.FC<PaymentButtonProps> = ({
     script.src = 'https://js.paystack.co/v1/inline.js';
     script.async = true;
     document.body.appendChild(script);
-
     return () => {
       document.body.removeChild(script);
     };
@@ -45,14 +44,9 @@ const PaymentButton: React.FC<PaymentButtonProps> = ({
       setShowEmailDialog(false);
       setIsLoading(true);
       setError(null);
-
-      // Store email temporarily for the success callback
       sessionStorage.setItem('payment_email', email);
-
-      // Initialize Paystack payment
       const handler = window.PaystackPop.setup(getPaystackConfig(email));
       handler.openIframe();
-
     } catch (err) {
       console.error('Payment error:', err);
       setError(err instanceof Error ? err.message : 'Payment initialization failed. Please try again.');

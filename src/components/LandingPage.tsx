@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Shield, Users, CheckCircle, Star, MapPin, Phone, Mail, Menu, X, Building2 } from 'lucide-react';
+import { Shield, Users, CheckCircle, Star, MapPin, Phone, Mail, Menu, X, Building2, MessageCircle } from 'lucide-react';
 import PaymentButton from './PaymentButton';
 import { Link } from 'react-router-dom';
 
@@ -364,6 +364,17 @@ const LandingPage = () => {
           </div>
         </div>
       </footer>
+
+      <a
+        href="https://wa.me/2348062558567"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 bg-transparent rounded-full shadow-2xl p-0 flex items-center justify-center transition-colors duration-200 border-0"
+        title="Chat with DiasporaNest Team on WhatsApp"
+        style={{ width: 56, height: 56 }}
+      >
+        <img src="https://res.cloudinary.com/dc5qncppu/image/upload/v1750604435/whaticon_i3kmux.png" alt="WhatsApp" style={{ width: 56, height: 56, borderRadius: '50%' }} />
+      </a>
     </div>
   );
 };

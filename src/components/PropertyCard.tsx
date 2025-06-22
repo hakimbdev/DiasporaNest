@@ -130,10 +130,6 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property, viewMode }) => {
                   <MapPin className="h-4 w-4 mr-2 text-blue-500" />
                   <span className="font-medium">{property.location}</span>
                 </div>
-                <div className="flex flex-col mb-4">
-                  <span className="text-2xl sm:text-3xl font-bold text-blue-600">{formatPrice(property.priceNaira)}</span>
-                  <span className="text-gray-500 text-sm">{formatUSDPrice(property.priceUSD)}</span>
-                </div>
               </div>
             </div>
 
@@ -248,11 +244,6 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property, viewMode }) => {
         <div className="flex items-center text-gray-600 mb-4">
           <MapPin className="h-4 w-4 mr-2 text-blue-500" />
           <span className="text-sm font-medium">{property.location}</span>
-        </div>
-
-        <div className="mb-4">
-          <span className="text-xl sm:text-2xl font-bold text-blue-600">{formatPrice(property.priceNaira)}</span>
-          <span className="text-gray-500 text-sm ml-2 block sm:inline">{formatUSDPrice(property.priceUSD)}</span>
         </div>
 
         <div className="flex justify-between items-center mb-6">

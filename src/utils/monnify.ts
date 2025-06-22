@@ -7,7 +7,7 @@ declare global {
   }
 }
 
-interface MonnifyConfig {
+export interface MonnifyConfig {
   apiKey: string;
   contractCode: string;
   amount: number;
