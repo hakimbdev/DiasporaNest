@@ -21,7 +21,7 @@ const TermsOfService: React.FC = () => (
     <h2 className="text-xl font-semibold mt-8 mb-2">Changes to Terms</h2>
     <p className="mb-4">We may update these terms from time to time. Continued use of the platform constitutes acceptance of the new terms.</p>
     <h2 className="text-xl font-semibold mt-8 mb-2">Contact Us</h2>
-    <p>If you have any questions about these Terms, please contact us at <a href="mailto:info@diasporanest.com" className="text-blue-600 underline">info@diasporanest.com</a>.</p>
+    <p>If you have any questions about these Terms, please contact us at <a href="mailto:info@diasporanest.com.ng" className="text-blue-600 underline">info@diasporanest.com.ng</a>.</p>
   </div>
 );
 

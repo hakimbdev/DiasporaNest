@@ -18,7 +18,7 @@ const PrivacyPolicy: React.FC = () => (
     <h2 className="text-xl font-semibold mt-8 mb-2">Data Protection</h2>
     <p className="mb-4">We implement industry-standard security measures to protect your data. We do not sell or share your personal information with third parties except as required by law.</p>
     <h2 className="text-xl font-semibold mt-8 mb-2">Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:info@diasporanest.com" className="text-blue-600 underline">info@diasporanest.com</a>.</p>
+    <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:info@diasporanest.com.ng" className="text-blue-600 underline">info@diasporanest.com.ng</a>.</p>
   </div>
 );
 

@@ -346,7 +346,7 @@ const LandingPage = () => {
               <div className="space-y-4 text-gray-400">
                 <div className="flex items-center">
                   <Mail className="h-4 w-4 mr-3 text-blue-400" />
-                  <span>info@diasporanest.com</span>
+                  <span>info@diasporanest.com.ng</span>
                 </div>
               </div>
             </div>
